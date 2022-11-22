@@ -1,0 +1,21 @@
+.section{
+    opacity: 1;
+    background: linear-gradient(to top,rgb(131, 190, 175),rgb(218, 230, 241));
+    height: 100vh;
+    width: 100vw;
+}
+
+/* ================================================================ */
+/* Making it Responsive */
+/* ================================================================ */
+
+@media only screen and (max-width: 400px){
+    .card-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3rem;
+
+    }
+}
